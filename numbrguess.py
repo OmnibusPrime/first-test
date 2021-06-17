@@ -12,8 +12,10 @@ while eingabe != zufz :
     eingabe = input ('noch eine Zahl bitte: ')
     eingabe = int(eingabe)
     if eingabe == zufz :
-        print ('Correct')
+        print ('Correct, Congratulation!')
     if (zufz) > eingabe:
         print ('zu niedrig')
     if (zufz) < eingabe:
         print ('zu hoch')
+        
+# by Benjamin Graw for Univention
